@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import AddDog from "./components/AddDog";
 import dogImage from "./assets/dog-logo.png";
 import './Navbarcolor.css'
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <BrowserRouter>
@@ -59,8 +61,10 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/add-dog" element={<AddDog />} />
       </Routes>
+        <Footer />
 
     </BrowserRouter>
+    
   );
 }
 
