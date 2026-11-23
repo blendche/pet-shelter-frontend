@@ -1,0 +1,29 @@
+
+body {
+  background-image: url(assets/paws.jpg);
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.form-control,
+.form-select {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn {
+  border-radius: 8px;
+}
